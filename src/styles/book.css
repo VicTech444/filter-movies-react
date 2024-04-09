@@ -1,0 +1,16 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.book-card {    
+    height: 290px;
+    border: 1px solid #fff;
+    background-size: 100%;
+}
+
+.book-img {
+    width: 100%;
+    object-fit: contain;
+}
