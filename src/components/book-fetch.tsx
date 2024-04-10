@@ -1,6 +1,6 @@
 import { bookResponse } from "../interfaces/interfaces";
+import bookData from '../assets/books.json'
 
-export const bookInformation = async (): Promise<bookResponse> => {
-    let response = await fetch('./src/assets/books.json');
-    return response.json();
+export const bookInformation = ():bookResponse => {
+    return bookData
 }

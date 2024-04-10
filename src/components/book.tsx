@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import { ReactElement } from "react";
 import '../styles/book.css'
 import { bookProps } from "../interfaces/interfaces";
 

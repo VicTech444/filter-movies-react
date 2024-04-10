@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { bookResponse } from "../interfaces/interfaces";
 
 interface effectProps {
-    bookInformation: () => Promise<bookResponse>;
+    bookInformation: () => bookResponse;
     setBookData: (data: bookResponse) => void;
 }
 
